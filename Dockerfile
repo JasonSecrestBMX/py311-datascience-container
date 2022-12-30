@@ -9,9 +9,7 @@ ENV PYTHONUNBUFFERED=1
 
 # Install pip requirements
 COPY requirements.txt .
-RUN echo "installing requirements.txt file on `date`" >> requirements.history
 RUN python -m pip install -r requirements.txt
-RUN ./update_requirements_history.sh
 
 WORKDIR /workspace
 COPY . /workspace
