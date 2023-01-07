@@ -1,6 +1,6 @@
 # py311-datascience-container
 
-## Usage
+## Description
  Docker container template for a new project. Designed to be used directly in 
  VS code using "Reopen in container"
 - python 3.11
@@ -18,7 +18,7 @@ Microsoft
  Detailed Setup instructions: 
  https://code.visualstudio.com/docs/devcontainers/containers#_installation
 
- # Usage
+ ## Usage
  1. From the github page of this project > "Use this template" > "Create a new 
  repository"
  2. Clone the repository to a local directory
